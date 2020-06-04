@@ -124,7 +124,7 @@
                         <strong>System Status</strong>
                     </div>
                     <div class="card-body">
-                        <p class="mb-0">The price list was last updated at
+                        <p class="mb-0">Price lists automatically updated every 24 hours. The price list was last updated at
                             <strong>{{ \Carbon\Carbon::parse(\App\Libraries\ResponseHelper::lastPricingUpdate()->updated_at)->format('F j, Y g:i A') }}</strong>.
                         </p>
                         <p class="mt-3"><strong>Vendor Price Lists:</strong></p>
