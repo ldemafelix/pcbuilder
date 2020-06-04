@@ -127,6 +127,12 @@
                         <p class="mb-0">The price list was last updated at
                             <strong>{{ \Carbon\Carbon::parse(\App\Libraries\ResponseHelper::lastPricingUpdate()->updated_at)->format('F j, Y g:i A') }}</strong>.
                         </p>
+                        <p class="mt-3"><strong>Vendor Price Lists:</strong></p>
+                        <ul class="mt-3">
+                            <li><a href="https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?fbclid=IwAR2AynJfTsDUCdSUDs2SZM7r9P0lIKM6n-W_mjlnnbJSrCawbAaTKlQATCE">EasyPC</a></li>
+                            <li><a href="https://awesome-table.com/-KrkkVbKZR_HZ2x8lsHk/view">PCHub</a></li>
+                            <li><a href="https://www.pcworx.ph/pcworx_pricelist">PCWORX</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="card">

@@ -100,7 +100,7 @@ class EasyPC implements SourceInterface
             if (array_key_exists(strtoupper($result->c[0]->v), $this->types)) {
                 Part::updateOrCreate(['vendor' => $this->vendor, 'name' => $result->c[1]->v], [
                     'class' => $this->types[strtoupper($result->c[0]->v)],
-                    'price' => $result->c[2]->v
+                    'price' => $result->c[3]->v
                 ]);
             }
             $bar->advance();
