@@ -1,0 +1,43 @@
+@import 'bootstrap';
+@import 'variables';
+@import '~select2/dist/css/select2.min.css';
+@import '~@ttskch/select2-bootstrap4-theme/dist/select2-bootstrap4.min.css';
+@import '~sweetalert2/dist/sweetalert2.min.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+code {
+  font-size: 80%;
+}
+
+.table > tbody > tr > td { vertical-align: middle; }
+
+.table.bolded-first tr td:first-child {
+  font-weight: bold;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .5rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
