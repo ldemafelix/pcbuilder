@@ -9,7 +9,8 @@ class XenForoHelper
 {
     public static function getInstance()
     {
-        return Http::withHeaders(['XF-Api-Key' => config('auth.xenforo_key')]);
+        return Http::withHeaders(['XF-Api-Key' => config('auth.xenforo_key')])
+            ->withOptions(['verify' => false]);
     }
 
     public static function authenticate($username, $password)
